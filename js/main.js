@@ -3,11 +3,11 @@
 console.log($('.header-right > a > i'));
 
 $('.header-right > a > i').click(function(){
-  $('.hamburger-menu').show();
+  $('.hamburger-menu').fadeIn('slow');
 }
 );
 
 $('.hamburger-menu > a > i').click(function(){
-  $('.hamburger-menu').hide();
+  $('.hamburger-menu').fadeOut('slow');
 }
 );
